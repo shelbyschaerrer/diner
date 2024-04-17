@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jukebox Junction Diner</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Shelby Schaerrer's Start File">
+    <meta name="author" content="Shelby Schaerrer">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <link href="css/styles.min.css" rel="stylesheet">
+
+    <!-- Fav Icon stuff below-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body>
+    <div id="headerWrapper">
+        <header>
+            <img src="images/logo1x.png" alt="My Logo" width="75" height="75" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x">
+            <h1>Jukebox Junction Diner</h1>
+        </header>
+    </div>
+
+    <div id="navWrapper">
+        <nav>
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li class="active"><a href="#">Menu</a></li>
+                <li><a href="#">Karaoke Nights</a></li>
+                <li><a href="#">Live Performances</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="mainWrapper">
+        <main>
+            <h1>Menu</h1>
+            <div class="allCards">
+                <section>
+                    <h2>Burgers</h2>
+                    <img src="images/burger.webp" alt="burger" width="300" height="175" class="e2e">
+                    <p>Indulge in our mouthwatering burgers crafted with premium beef, grilled to perfection, and served on toasted brioche buns, guaranteeing a nostalgic culinary experience with every bite at Jukebox Junction Diner.</p>
+                    <a href="#">View Burgers</a>
+                </section>
+                <section>
+                    <h2>Sides</h2>
+                    <img src="images/sides.webp" alt="side dishes" width="300" height="175" class="e2e">
+                    <p>Complement your meal with our delicious selection of classic sides, including crispy golden fries, creamy coleslaw, and savory onion rings, adding the perfect finishing touch to your dining experience.</p>
+                    <a href="#">View Sides</a>
+                </section>
+                <section>
+                    <h2>Drinks</h2>
+                    <img src="images/drinks.webp" alt="drinks" width="300" height="175" class="e2e">
+                    <p>Quench your thirst with our refreshing lineup of beverages, featuring hand-spun milkshakes, frosty sodas, and bottomless cups of freshly brewed coffee, ensuring there's a perfect drink to accompany every meal.</p>
+                    <a href="#">View Drinks</a>
+                </section>
+                <section>
+                    <h2>Wraps</h2>
+                    <img src="images/wraps.webp" alt="wraps" width="300" height="175" class="e2e">
+                    <p>Explore a lighter option with our flavorful wraps, bursting with fresh ingredients and wrapped in a soft tortilla, offering a delicious alternative for those craving a satisfying yet wholesome meal.</p>
+                    <a href="#">View Wraps</a>
+                </section>
+                <section>
+                    <h2>Shakes</h2>
+                    <img src="images/shakes.webp" alt="shakes" width="300" height="175" class="e2e">
+                    <p>Indulge in our signature shakes, handcrafted with premium ice cream and topped with whipped cream and a cherry on top, delivering a creamy and decadent treat that will transport you back to the nostalgic days of classic diners at Jukebox Junction Diner.</p>
+                    <a href="#">View Shakes</a>
+                </section>
+            </div>
+
+        </main>
+    </div>
+
+    <div id="footerWrapper">
+        <footer>
+            <div>
+                <section class="contact">
+                    <p><ion-icon name="person-circle-outline"></ion-icon>Mabel Johnson, Manager</p>
+                    <p><ion-icon name="home-outline"></ion-icon>Jukebox Junction</p>
+                    <p><ion-icon name="mail-outline"></ion-icon><a href="#">info@jukeboxjunctiondiner.com</a></p>
+                    <p><ion-icon name="globe-outline"></ion-icon><a href="#">jukeboxjunctiondiner.com</a></p>
+                    <p><ion-icon name="call-outline"></ion-icon><a href="tel:4655552837">(465) 555 - 2837</a></p>
+                </section>
+                <section class="social">
+                    <a href="#" class="socialIcon"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#" class="socialIcon"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#" class="socialIcon"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#" class="socialIcon"><ion-icon name="logo-pinterest"></ion-icon></a>
+                    <a href="#" class="socialIcon"><ion-icon name="logo-reddit"></ion-icon></a>
+                </section>
+                <section class="location">
+                    <address>Jukebox Junction Diner<br>
+                        123 Retro Road<br>
+                        Rockville, USA</address>
+                </section>
+            </div>
+            <p class="legal">&copy; <span id="year">x</span> &bull; Shelby Schaerrer</p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script> <!--Commenting this out didn't fix-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> <!--These are working-->
+
+</body>
+</html>
